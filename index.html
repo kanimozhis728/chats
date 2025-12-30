@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chat UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-app">
+
+    <!-- Sidebar Contacts -->
+    <aside class="sidebar">
+        <h2>Chats</h2>
+        <div class="contact active">
+            <div class="avatar avatar-online"></div>
+            <div class="contact-info">
+                <span class="name">Friend A</span>
+                <span class="status">Online</span>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="avatar avatar-away"></div>
+            <div class="contact-info">
+                <span class="name">Friend B</span>
+                <span class="status">Away</span>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="avatar avatar-offline"></div>
+            <div class="contact-info">
+                <span class="name">Support</span>
+                <span class="status">Offline</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Chat Area -->
+    <section class="main-chat">
+
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="user-details">
+                <div class="avatar-lg avatar-online"></div>
+                <div>
+                    <div class="name-lg">Friend A</div>
+                    <div class="status-lg">Online</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Scrollable Chat Messages -->
+        <div class="chat-body">
+            <div class="message received">
+                <p>Welcome to the chat! 😊</p>
+                <span class="time">10:05 AM</span>
+            </div>
+
+            <div class="message sent">
+                <p>This looks awesome!</p>
+                <span class="time">10:07 AM</span>
+            </div>
+
+            <div class="message received">
+                <p>Thanks! This layout is fully scrollable and colorful 🌈</p>
+                <span class="time">10:10 AM</span>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <footer class="chat-input-area">
+            <input type="text" placeholder="Type a message..." />
+            <button class="send-btn">Send</button>
+        </footer>
+
+    </section>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
